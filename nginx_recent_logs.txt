@@ -1,0 +1,6 @@
+Mar 29 16:24:10 mephi-2026 systemd[1]: Starting The nginx HTTP and reverse proxy server...
+Mar 29 16:24:11 mephi-2026 nginx[1587]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+Mar 29 16:24:11 mephi-2026 nginx[1587]: nginx: configuration file /etc/nginx/nginx.conf test is successful
+Mar 29 16:24:11 mephi-2026 systemd[1]: Started The nginx HTTP and reverse proxy server.
+Mar 29 16:24:38 mephi-2026 nginx[1587]: 127.0.0.1 - - [29/Mar/2026:16:24:38 +0300] "GET / HTTP/1.1" 200 30 "-" "curl/8.6.0"
+Mar 29 16:25:01 mephi-2026 nginx[1587]: 192.168.1.100 - - [29/Mar/2026:16:25:01 +0300] "GET / HTTP/1.1" 200 30 "-" "curl/8.6.0"
